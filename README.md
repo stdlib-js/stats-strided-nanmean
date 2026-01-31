@@ -63,7 +63,7 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
-import nanmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmean@esm/index.mjs';
+import nanmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmean@v0.1.0-esm/index.mjs';
 ```
 
 #### nanmean( N, x, strideX )
@@ -162,7 +162,7 @@ var v = nanmean.ndarray( 5, x, 2, 1 );
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import nanmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmean@esm/index.mjs';
+import nanmean from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-nanmean@v0.1.0-esm/index.mjs';
 
 function rand() {
     if ( bernoulli( 0.8 ) < 1 ) {
